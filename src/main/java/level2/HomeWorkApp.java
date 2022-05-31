@@ -39,7 +39,7 @@ public class HomeWorkApp {
         System.out.println("Результат выполнения задания 4:");
         String strPrint = "Привет, Игорь Честнов!";
         int n = 2;
-        System.out.println("Напетаем строку '" + strPrint + "' n раз, где n = " + n + ":");
+        System.out.println("Напечатаем строку '" + strPrint + "' n раз, где n = " + n + ":");
         printStrN(strPrint, n);
         System.out.println();
 
@@ -90,7 +90,9 @@ public class HomeWorkApp {
     указанное количество раз;
     */
     private static void printStrN(String strPrint, int n) {
-        for (int i = 1; i <= n; i ++) System.out.println(strPrint);
+        for (int i = 1; i <= n; i ++) {
+            System.out.println(strPrint);
+        }    
     }
 
     /*5. Написать метод, который определяет, является ли год високосным,
